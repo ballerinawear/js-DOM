@@ -44,7 +44,11 @@ box.appendChild(chucky);
 
 Append this div element to the aliasBox div.*/
 
-
+var grim = document.getElementById("aliasBox");
+var grimAlias = document.createElement("div");
+grimAlias.id = "alias8";
+grimAlias.innerHTML = "The Purple Monster";
+grim.appendChild(grimAlias);
 
 
 //Final Boss
